@@ -18,3 +18,7 @@ spring:
         request.timeout.ms: 60000
     properties:
       request.timeout.ms: 60000
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
